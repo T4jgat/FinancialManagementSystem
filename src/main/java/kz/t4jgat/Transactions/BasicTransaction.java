@@ -1,7 +1,7 @@
 package kz.t4jgat.Transactions;
 
 // Basic transaction without any additions
-class BasicTransaction implements Transaction {
+public class BasicTransaction implements Transaction {
 
     // Amount variable
     private double amount;

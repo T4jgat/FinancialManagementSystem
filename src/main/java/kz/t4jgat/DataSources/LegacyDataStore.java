@@ -3,7 +3,9 @@ package kz.t4jgat.DataSources;
 import kz.t4jgat.Transactions.BasicTransaction;
 import kz.t4jgat.Transactions.Transaction;
 
-public class LegacyDataStore {
+import java.util.List;
+
+public class LegacyDataStore implements OldDataStore {
 
     private static LegacyDataStore legacyDataStore;
 
@@ -14,6 +16,12 @@ public class LegacyDataStore {
         }
     }
 
+    @Override
+    public void addTransaction(Transaction transaction) {
+        System.out.println("fake add new transaction");
+    }
+
+    @Override
     public Transaction[] getData() {
         return data;
     }

@@ -6,17 +6,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class DataStoreAdapter implements DataSource {
+public class DataStoreAdapter implements DataSource{
 
-    private final LegacyDataStore legacyDataStore;
+    private LegacyDataStore instance;
 
-    public DataStoreAdapter(LegacyDataStore legacyDataStore) {
-        this.legacyDataStore = legacyDataStore;
-    }
-
-    @Override
-    public DataStore getInstance() {
-        return null;
+    public DataStoreAdapter(LegacyDataStore instance) {
+        this.instance = instance;
     }
 
     @Override
@@ -25,7 +20,6 @@ public class DataStoreAdapter implements DataSource {
 
     @Override
     public List<Transaction> getData() {
-        Transaction[] data = legacyDataStore.getData();
-        return new ArrayList<>(Arrays.asList(data));
+        return new ArrayList<>(Arrays.asList(instance.getData()));
     }
 }

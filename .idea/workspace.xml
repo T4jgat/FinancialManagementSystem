@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df90ff28-547e-459b-996e-31170af88661" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" afterDir="false" />
+    <list default="true" id="df90ff28-547e-459b-996e-31170af88661" name="Changes" comment="DataStore with adapter for legacyDataStore">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/BasicDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Discounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/OldDataStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dcd1c65d-2b25-4fa9-bfb4-87db86757998.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dcd1c65d-2b25-4fa9-bfb4-87db86757998.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Transactions/BasicTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Transactions/BasicTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/LegacyDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/LegacyDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Interface/CommandLineInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Interface/CommandLineInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,34 +43,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: -1
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectId" id="2Xsr18fCF7Fksrux8kQwWRBrBwC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "t4jgat__dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;t4jgat__dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kz.t4jgat.DataSources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,8 +88,18 @@
       <updated>1699428411147</updated>
       <workItem from="1699428412549" duration="343000" />
       <workItem from="1699428761147" duration="7307000" />
-      <workItem from="1699453485872" duration="4090000" />
+      <workItem from="1699453485872" duration="9234000" />
+      <workItem from="1699503250617" duration="2750000" />
     </task>
+    <task id="LOCAL-00001" summary="DataStore with adapter for legacyDataStore">
+      <option name="closed" value="true" />
+      <created>1699458451091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699458451091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DataStore with adapter for legacyDataStore" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataStore with adapter for legacyDataStore" />
   </component>
 </project>

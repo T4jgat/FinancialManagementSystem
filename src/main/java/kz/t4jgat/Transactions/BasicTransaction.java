@@ -5,6 +5,15 @@ public class BasicTransaction implements Transaction {
 
     // Amount variable
     private double amount;
+    private String decorators;
+
+    public String getDecorators() {
+        return decorators;
+    }
+
+    public void setDecorators(String decorators) {
+        this.decorators = decorators;
+    }
 
     // basic transaction constructor
     public BasicTransaction(double amount) {

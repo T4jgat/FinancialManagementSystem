@@ -5,21 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df90ff28-547e-459b-996e-31170af88661" name="Changes" comment="DataStore with adapter for legacyDataStore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/BasicDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Discounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/OldDataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dcd1c65d-2b25-4fa9-bfb4-87db86757998.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dcd1c65d-2b25-4fa9-bfb4-87db86757998.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AccountFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccountFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccountFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/KZTDefaultDepositPercentage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/KZTDefaultDepositPercentage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/USDDepositPercentage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/USDDepositPercentage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/BasicDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/BasicDiscount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/LegacyDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/LegacyDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Discounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Discount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Interface/CommandLineInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Interface/CommandLineInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Transactions/BasicTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Transactions/BasicTransaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +82,24 @@
       <recent name="kz.t4jgat.DataSources" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="AntRunConfiguration" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kz.t4jgat.Main" />
+      <module name="FinancialManagementSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Ant Target.Unnamed" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,7 +111,7 @@
       <workItem from="1699428412549" duration="343000" />
       <workItem from="1699428761147" duration="7307000" />
       <workItem from="1699453485872" duration="9234000" />
-      <workItem from="1699503250617" duration="2750000" />
+      <workItem from="1699503250617" duration="10638000" />
     </task>
     <task id="LOCAL-00001" summary="DataStore with adapter for legacyDataStore">
       <option name="closed" value="true" />

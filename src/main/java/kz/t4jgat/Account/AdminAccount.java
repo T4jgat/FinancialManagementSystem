@@ -10,4 +10,19 @@ public class AdminAccount implements Account{
                 "Name: " + name + "\n" +
                 "ID: " + id;
     }
+
+    @Override
+    public void setBalance(double balance) {
+
+    }
+
+    @Override
+    public double getBalance() {
+        return 0;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
 }

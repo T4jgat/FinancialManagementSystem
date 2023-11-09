@@ -1,11 +1,12 @@
 package kz.t4jgat.DataSources;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class BasicDiscount implements Discounts{
+public class BasicDiscount implements Discount {
     private final String discountType = "For all users";
     private String title;
+
+    public BasicDiscount(String title) {
+        this.title = title;
+    }
 
     @Override
     public String getTitle() {

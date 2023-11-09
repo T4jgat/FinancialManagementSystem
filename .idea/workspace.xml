@@ -6,24 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df90ff28-547e-459b-996e-31170af88661" name="Changes" comment="DataStore with adapter for legacyDataStore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/AdminAccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Account/UserAccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/KZTDefaultDepositPercentage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/KZTDefaultDepositPercentage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/USDDepositPercentage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/BankComission/USDDepositPercentage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/BasicDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/BasicDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/DataStoreAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Discounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/DataSources/Discount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Interface/CommandLineInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Interface/CommandLineInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Notifications/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Transactions/BasicTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/t4jgat/Transactions/BasicTransaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +94,7 @@
       <workItem from="1699428412549" duration="343000" />
       <workItem from="1699428761147" duration="7307000" />
       <workItem from="1699453485872" duration="9234000" />
-      <workItem from="1699503250617" duration="10638000" />
+      <workItem from="1699503250617" duration="11728000" />
     </task>
     <task id="LOCAL-00001" summary="DataStore with adapter for legacyDataStore">
       <option name="closed" value="true" />

@@ -43,7 +43,7 @@ public class CommandLineInterface {
                 // create deposit for user
                 createDepositForUser(account);
 
-                System.out.println("""
+                System.out.print("""
                         ========= Action =========
                         [1] add transaction
                         >>\s""");
@@ -104,7 +104,7 @@ public class CommandLineInterface {
     private void createDepositForUser(Account account) {
         DepositPercentageStrategy depositPercentageStrategy = null;
 
-        System.out.println("""
+        System.out.print("""
                         ========= Select your currency =========
                         [1] USD
                         [2] KZT
